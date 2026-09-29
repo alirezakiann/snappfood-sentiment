@@ -1,6 +1,9 @@
 # Persian Sentiment Analysis on Snappfood Reviews
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alirezakiann/snappfood-sentiment/blob/main/notebooks/01_eda.ipynb)
+| Notebook | Open |
+|---|---|
+| 01 - EDA | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alirezakiann/snappfood-sentiment/blob/main/notebooks/01_eda.ipynb) |
+| 02 - Preprocessing | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/alirezakiann/snappfood-sentiment/blob/main/notebooks/02_preprocessing.ipynb) |
 
 Classifying ~70,000 Persian food-delivery reviews from Snappfood as positive or negative,
 and finding out *what* customers complain about.
@@ -12,8 +15,8 @@ The data is not stored in this repo. Download it from Kaggle to run the notebook
 ## Project roadmap
 | Step | Notebook | Status |
 |---|---|---|
-| 1. Exploratory data analysis | `notebooks/01_eda.ipynb` | In progress |
-| 2. Persian text preprocessing | `notebooks/02_preprocessing.ipynb` | Planned |
+| 1. Exploratory data analysis | `notebooks/01_eda.ipynb` | Done |
+| 2. Persian text preprocessing | `notebooks/02_preprocessing.ipynb` | In progress |
 | 3. Baseline models (TF-IDF + Scikit-Learn) | `notebooks/03_baseline_models.ipynb` | Planned |
 | 4. LSTM model (PyTorch) | `notebooks/04_lstm.ipynb` | Planned |
 | 5. Error analysis & complaint clustering | `notebooks/05_error_analysis.ipynb` | Planned |
